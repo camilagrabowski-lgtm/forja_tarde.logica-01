@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ h1{
+   font-family: "Nunito", sans-serif;
+   color: rgb(rgb(6, 92, 107), rgb(5, 64, 99), rgba(15, 63, 126, 0.418))
+}
+
+body{
+    font-family: "BBH Sans Bartle", sans-serif;
+    background-color: rgb(25, 110, 110);
+    color: #ffffff
+    display: flex;
+    flex-direction: column;
+    aling-items: center;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    aling-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+input{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+button{
+    padding: 10px;
+    background: #ffffff;
+    border: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+
+
+}
+
+button:hover{
+    background: #ffffff;
+    border: 2px solid;
+    color:rgb(5, 64, 99);
+    cursor: pointer;
+}
